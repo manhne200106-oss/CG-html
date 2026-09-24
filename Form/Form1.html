@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form thông tin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Thông tin cá nhân</h2>
+
+    <form>
+        <p>
+            <label>Họ và tên:</label>
+            <input type="text" name="yourname">
+        </p>
+
+        <p>
+            <label>Email:</label>
+            <input type="text" name="email">
+        </p>
+
+        <p>Sở thích:</p>
+        <input type="checkbox" name="hobby" value="sport"> Thể thao<br>
+        <input type="checkbox" name="hobby" value="music"> Âm nhạc<br>
+        <input type="checkbox" name="hobby" value="reading"> Đọc sách<br>
+
+        <br>
+
+        <input type="submit" value="Gửi thông tin">
+        <input type="reset" value="Nhập lại">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #6D28D9;
+    --secondary-color: #4C1D95;
+    --accent-color: #EAB308;
+    --darker-primary-color: #5B21B6;
+}
+
+body {
+    background-color: #FAF5FF;
+}
+
+.primary-bg {
+    background-color: var(--primary-color);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color);
+}
+
+.accent-bg {
+    background-color: var(--accent-color);
+}
+
+.text-primary-color {
+    color: var(--primary-color);
+}
+
+.btn-primary-custom {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.btn-primary-custom:hover {
+    background-color: var(--darker-primary-color);
+    border-color: var(--darker-primary-color);
+    color: white;
+}
